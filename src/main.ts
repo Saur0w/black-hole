@@ -1,6 +1,7 @@
 import * as THREE from "three";
+import "./style.css";
 
-const container = document.querySelector("#app");
+const container = document.querySelector<HTMLDivElement>("#app")!;
 
 const renderer = new THREE.WebGLRenderer({
   antialias: true,
